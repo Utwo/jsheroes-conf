@@ -1,0 +1,11 @@
+<md-toolbar color="primary">Talk</md-toolbar>
+
+<app-card
+          *ngIf="talk"
+          [title]="talk.talk_name"
+          [image]="talk.image"
+          [info]="talk.start"
+          [subtitle]="talk.speaker.name">
+  {{talk.description}}
+</app-card>
+

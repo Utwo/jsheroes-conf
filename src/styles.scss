@@ -1,0 +1,136 @@
+/* Import material icons */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@import '~@angular/material/theming';
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme
+$md-blue-palette: (
+  50 : #e0f3ff,
+  100 : #b3e0ff,
+  200 : #80ccff,
+  300 : #4db7ff,
+  400 : #26a7ff,
+  500 : #0098ff,
+  600 : #0090ff,
+  700 : #0085ff,
+  800 : #007bff,
+  900 : #006aff,
+  A100 : #ffffff,
+  A200 : #f2f7ff,
+  A400 : #bfd6ff,
+  A700 : #a6c5ff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$js-app-primary: mat-palette($md-blue-palette);
+$js-app-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$js-app-warn: mat-palette($mat-red);
+$js-app-theme: mat-light-theme($js-app-primary, $js-app-accent, $js-app-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($js-app-theme);
+
+// Base style
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  background: #eee;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img.avatar {
+  max-width: 700px;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.nav {
+  background: map-get($md-blue-palette, 400);
+}
+
+.nav .mat-tab-links {
+  display: flex;
+}
+
+.nav .mat-icon {
+  color: #fff;
+}
+
+.nav .mat-tab-link {
+  flex: 1 100%;
+  padding: .6em 0 0;
+}
+
+//Loading spinner
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background: map-get($md-blue-palette, 300);;
+
+  border-radius: 100%;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+}

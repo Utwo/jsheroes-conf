@@ -1,0 +1,26 @@
+<md-toolbar color="primary">Schedule</md-toolbar>
+<div *ngFor="let schedule_list of schedules; let day = index">
+  <div *ngIf="schedule_list">
+    <md-toolbar color="secondary">
+      Day {{day}}
+    </md-toolbar>
+    <md-list>
+      <md-list-item *ngFor="let schedule of schedule_list">
+        <a routerLink="/talk/{{schedule.talk_name | slug}}" *ngIf="schedule.speaker">
+          <md-card>
+            <md-card-header>
+              <img md-card-avatar md-card-sm-image src="{{schedule.image}}" alt="{{schedule.talk_name}}">
+              <md-card-title>{{schedule.talk_name}}</md-card-title>
+              <md-card-subtitle md-line>{{schedule.speaker.name}} -- {{schedule.start}}</md-card-subtitle>
+            </md-card-header>
+          </md-card>
+        </a>
+        <md-card *ngIf="!schedule.speaker">
+          <md-card-header>
+            <md-card-title><h4>{{schedule.talk_name}}</h4></md-card-title>
+          </md-card-header>
+        </md-card>
+      </md-list-item>
+    </md-list>
+  </div>
+</div>

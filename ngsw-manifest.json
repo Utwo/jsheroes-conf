@@ -1,0 +1,49 @@
+{
+  "routing": {
+    "index": "/index.html",
+    "routes": {
+      "/": {
+        "match": "exact"
+      },
+      "/schedule": {
+        "match": "exact"
+      },
+      "/speakers": {
+        "match": "exact"
+      },
+      "/speakers/": {
+        "match": "prefix"
+      },
+      "/talk": {
+        "match": "prefix"
+      },
+      "/404": {
+        "match": "exact"
+      }
+    }
+  },
+  "dynamic": {
+    "group": [
+      {
+        "name": "api",
+        "urls": {
+          "/assets/info.json": {
+            "match": "exact"
+          }
+        },
+        "cache": {
+          "optimizeFor": "performance",
+          "maxAgeMs": 36000000,
+          "maxEntries": 3,
+          "strategy": "fifo",
+          "networkTimeoutMs": 1000
+        }
+      }
+    ]
+  },
+  "external": {
+    "urls": [{
+      "url": "https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2"
+    }]
+  }
+}

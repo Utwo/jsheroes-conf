@@ -1,0 +1,9 @@
+<div *ngIf="speaker">
+  <md-toolbar color="primary">{{speaker.name}}</md-toolbar>
+
+  <app-card
+    [image]="speaker.image"
+    [info]="speaker.website">
+    {{speaker.bio}}
+  </app-card>
+</div>

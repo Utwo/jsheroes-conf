@@ -1,0 +1,15 @@
+<md-toolbar color="primary">Speakers</md-toolbar>
+
+<md-list>
+  <md-list-item *ngFor="let schedule of schedules">
+    <a routerLink="/speakers/{{schedule.speaker.name | slug}}" *ngIf="schedule.speaker">
+      <md-card>
+        <md-card-header>
+          <img md-card-avatar md-card-sm-image src="{{schedule.speaker.image}}" alt="speaker.name">
+          <md-card-title>{{schedule.speaker.name}}</md-card-title>
+          <md-card-subtitle>{{schedule.speaker.workspace}}</md-card-subtitle>
+        </md-card-header>
+      </md-card>
+    </a>
+  </md-list-item>
+</md-list>
