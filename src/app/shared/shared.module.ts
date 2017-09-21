@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {MdButtonModule, MdCardModule, MdIconModule, MdTabsModule, MdToolbarModule} from '@angular/material';
+import { MdButtonModule, MdCardModule, MdIconModule, MdTabsModule, MdToolbarModule } from '@angular/material';
 import { CardComponent } from './card/card.component';
 import { SlugPipe } from './slug.pipe';
 
