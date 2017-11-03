@@ -1,15 +1,15 @@
-<md-toolbar color="primary">Speakers</md-toolbar>
+<mat-toolbar color="primary">Speakers</mat-toolbar>
 
-<md-list>
-  <md-list-item *ngFor="let schedule of schedules">
+<mat-list>
+  <mat-list-item *ngFor="let schedule of schedules">
     <a routerLink="/speakers/{{schedule.speaker.name | slug}}" *ngIf="schedule.speaker">
-      <md-card>
-        <md-card-header>
-          <img md-card-avatar md-card-sm-image src="{{schedule.speaker.image}}" alt="speaker.name">
-          <md-card-title>{{schedule.speaker.name}}</md-card-title>
-          <md-card-subtitle>{{schedule.speaker.workspace}}</md-card-subtitle>
-        </md-card-header>
-      </md-card>
+      <mat-card>
+        <mat-card-header>
+          <img mat-card-avatar mat-card-sm-image src="{{schedule.speaker.image}}" alt="speaker.name">
+          <mat-card-title>{{schedule.speaker.name}}</mat-card-title>
+          <mat-card-subtitle>{{schedule.speaker.workspace}}</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
     </a>
-  </md-list-item>
-</md-list>
+  </mat-list-item>
+</mat-list>

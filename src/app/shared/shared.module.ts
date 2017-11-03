@@ -1,22 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MdButtonModule, MdCardModule, MdIconModule, MdTabsModule, MdToolbarModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatIconModule, MatTabsModule, MatToolbarModule } from '@angular/material';
 import { CardComponent } from './card/card.component';
 import { SlugPipe } from './slug.pipe';
 
 @NgModule({
   imports: [
     CommonModule,
-    MdCardModule
+    MatCardModule
   ],
   exports: [
     CommonModule,
     CardComponent,
-    MdToolbarModule,
-    MdCardModule,
-    MdButtonModule,
-    MdIconModule,
-    MdTabsModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule,
+    MatTabsModule,
     SlugPipe
   ],
   declarations: [CardComponent, SlugPipe]
