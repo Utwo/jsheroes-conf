@@ -1,8 +1,8 @@
 <mat-toolbar color="primary">Speakers</mat-toolbar>
 
-<mat-list>
+<mat-list class="mat-list--no-margin">
   <mat-list-item *ngFor="let schedule of schedules">
-    <a routerLink="/speakers/{{schedule.speaker.name | slug}}" *ngIf="schedule.speaker">
+    <a matLine routerLink="/speakers/{{schedule.speaker.name | slug}}" *ngIf="schedule.speaker">
       <mat-card>
         <mat-card-header>
           <img mat-card-avatar mat-card-sm-image src="{{schedule.speaker.image}}" alt="speaker.name">

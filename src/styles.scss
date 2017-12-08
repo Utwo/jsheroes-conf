@@ -119,6 +119,15 @@ img.avatar {
   padding: .6em 0 0;
 }
 
+.mat-list--no-margin, .mat-list--no-margin .mat-list-item-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mat-list--no-margin .mat-list-item{
+  height: auto !important;
+}
+
 //Loading spinner
 .spinner {
   width: 40px;

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatButtonModule, MatCardModule, MatIconModule, MatTabsModule, MatToolbarModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatIconModule, MatTabsModule, MatToolbarModule, MatListModule } from '@angular/material';
 import { CardComponent } from './card/card.component';
 import { SlugPipe } from './slug.pipe';
 
@@ -17,6 +17,7 @@ import { SlugPipe } from './slug.pipe';
     MatButtonModule,
     MatIconModule,
     MatTabsModule,
+    MatListModule,
     SlugPipe
   ],
   declarations: [CardComponent, SlugPipe]
