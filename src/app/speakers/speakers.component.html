@@ -1,7 +1,7 @@
 <mat-toolbar color="primary">Speakers</mat-toolbar>
 
-<mat-list class="mat-list--no-margin">
-  <mat-list-item *ngFor="let schedule of schedules">
+<ul class="mat-list--no-margin">
+  <li *ngFor="let schedule of schedules">
     <a matLine routerLink="/speakers/{{schedule.speaker.name | slug}}" *ngIf="schedule.speaker">
       <mat-card>
         <mat-card-header>
@@ -11,5 +11,5 @@
         </mat-card-header>
       </mat-card>
     </a>
-  </mat-list-item>
-</mat-list>
+  </li>
+</ul>
