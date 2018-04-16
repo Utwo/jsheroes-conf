@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {map} from 'rxjs/operators';
-import {of} from 'rxjs/observable/of';
 import {HttpClient} from '@angular/common/http';
+import {of} from 'rxjs';
 
 @Injectable()
 export class CallApiService {

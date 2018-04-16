@@ -2,30 +2,29 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {appRoutingProviders, routing} from './app.routing';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {SharedModule} from './shared/shared.module';
 import {CoreModule} from './core/core.module';
 import {SlugPipe} from './shared/slug.pipe';
 import {HttpClientModule} from '@angular/common/http';
-import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
+import {AppRoutingModule} from './app-routing.module';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    routing,
+    AppRoutingModule,
     BrowserModule,
     HttpClientModule,
     NoopAnimationsModule,
     SharedModule,
     CoreModule.forRoot(),
-    environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : []
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [
-    appRoutingProviders,
     SlugPipe
   ],
   bootstrap: [AppComponent]

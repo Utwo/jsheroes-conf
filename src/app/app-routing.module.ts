@@ -1,7 +1,7 @@
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ModuleWithProviders } from '@angular/core';
 
-const appRoutes: Routes = [
+const routes: Routes = [
   {path: '', loadChildren: './home/home.module#HomeModule', pathMatch: 'full'},
   {path: 'schedule', loadChildren: './schedule/schedule.module#ScheduleModule'},
   {path: 'speakers', loadChildren: './speakers/speakers.module#SpeakersModule'},
@@ -10,6 +10,8 @@ const appRoutes: Routes = [
   {path: '**', redirectTo: '404'}
 ];
 
-export const appRoutingProviders: any[] = [];
-
-export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
