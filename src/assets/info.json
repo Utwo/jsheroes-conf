@@ -1,352 +1,378 @@
 [
   {
-    "talk_name": "Registration",
+    "talk_name": "CHECK-IN & COFFEE",
     "day": 1,
     "start": "08:00 am",
-    "description": "",
-    "image": "assets/point.png"
+    "description": ""
   },
   {
-    "talk_name": "Welcome, Js heroes",
+    "talk_name": "Welcome, JSHeroes!",
     "day": 1,
     "start": "09:00 am",
-    "description": "Welcome, JS heroes!",
-    "image": "assets/point.png",
-    "speaker": {
-      "name": "Paul Brie",
-      "image": "assets/point.png",
-      "bio": "",
-      "workspace": "Evozon",
-      "website": "paulbrie.com/"
-    }
+    "description": "Welcome, JS heroes!"
   },
   {
-    "talk_name": "Unleash the power of Angular Reactive Forms",
+    "talk_name": "Sketching in the Browser",
     "day": 1,
     "start": "09:30 am",
-    "description": "The reactive forms module is powerful. During this session we will live code a complex form from scratch, going through all the main features such as: validation, reactive state tracking, dynamic form creation and much more…",
-    "image": "assets/NirKaufman.png",
+    "description": "Keeping developers and designers in sync is an ongoing challenge for our industry, with both disciplines working in completely different mediums. Lately, we've seen the emergence of tools like react-sketchapp and html-sketchapp that allow us to generate Sketch libraries from our application code. In this talk, we'll run through a real-world example of this technique, have a closer look at how it all works, and show you how you can start experimenting with this yourself. Most importantly, we'll talk about what this means for the future of design.",
+    "image": "assets/mark.png",
     "speaker": {
-      "name": "Nir Kaufman",
-      "image": "assets/NirKaufman.png",
-      "bio": "Google Developer Expert (GDE - web technologies, Angular), worldwide conference speaker, Angular evangelist and community activist. Currently acting as the head of Angular department at 500Tech - a top front-end consultancy. Nir organizes the largest Angular community in Israel (Angular-IL), talk and teach about front-end technologies around the world and an organizer of AngularUP conference.",
-      "workspace": "500Tech",
-      "website": "500tech.com/"
+      "name": "Mark Dalgleish",
+      "image": "assets/mark.png",
+      "bio": "Mark Dalgleish is the co-creator of CSS Modules, lead organiser of MelbJS, and DesignOps Lead at SEEK, Australia's leading job site. Having got his start with HTML and UI design at a young age, Mark has since developed a love of open source and software engineering but always as a means to creating elegant, usable experiences.",
+      "workspace": "SEEK",
+      "website": "twitter.com/markdalgleish/"
     }
   },
   {
-    "talk_name": "A Story About Types and JavaScript",
+    "talk_name": "XSS, CSRF, CSP, JWT, WTF? IDK ¯\\_(ツ)_/¯",
     "day": 1,
     "start": "10:00 am",
-    "description": "Why do we exactly need those types? Are we not choosing Javascript for its dynamic nature? Let's see how a bit of rigour can help us on the long run.",
-    "image": "assets/gergely.jpg",
+    "description": "Robert'); DROP TABLE Students;-- The little Bobby Tables is embodying the classical fear of SQL injections when building web applications. However, SQL injections are just one aspect of security we need to worry about when building web applications. With the recent popularity of Angular, React and other Single Page Application frameworks we got more logic executing on the front-end, create new problems, and make you forget about others.",
+    "image": "assets/dominik.jpg",
     "speaker": {
-      "name": "Tudor Gergely",
-      "image": "assets/gergely.jpg",
-      "bio": "Passionate about programming since he was a kid, Tudor is never bored to talk about computers and software. Nowadays he spends his time learning new things and helping others reach their full potential. Never saying no to a challenge, Tudor co-organizes Cluj Javascripters, promoting free learning and open source.",
-      "workspace": "Catalysts",
-      "website": "github.com/tudorgergely"
+      "name": "Dominik Kundel",
+      "image": "assets/dominik.jpg",
+      "bio": "Dominik is a Developer Evangelist for Twilio in Berlin. He has a passion for JavaScript, hackathons, teaching and good whiskey. You will usually find him speaking at meetups and conferences, mentoring at hackathons and CoderDojos or work on open source projects.",
+      "workspace": "Twilio",
+      "website": "moin.world"
     }
   },
   {
     "talk_name": "Coffee Break",
     "day": 1,
     "start": "10:30 am",
-    "description": "",
-    "image": "assets/point.png"
+    "description": ""
   },
   {
-    "talk_name": "How to get started and build something with GraphQL",
+    "talk_name": "Fontastic web performance",
     "day": 1,
     "start": "11:00 am",
-    "description": "GraphQL presents new ways for clients to fetch data by focusing on the needs of product developers and client applications. Building a product with GraphQL is easy once you wrapped your head around the key concepts: many awesome tools are around and it's a real pleasure to use them.",
-    "image": "assets/xavier.jpg",
+    "description": "Web fonts are awesome. They make your sans-serifs slabby, your headers special and your website look gorgeous. But fonts are a resource, and downloading resources always comes as a cost — if you don’t load web fonts efficiently, what you get instead are phantom underlines, blank pages, and user rage. Let’s talk about ways to avoid this, and what new platform features are here to help us deliver pretty (but also!) fast experiences to everyone.",
+    "image": "assets/monica.jpg",
     "speaker": {
-      "name": "Xavier Cazalot",
-      "image": "assets/xavier.jpg",
-      "bio": "I'm passionate about open-source, and I build apps for early-stage startups as an independent developer for a living. I'm also the maintainer of two Apollo-related open-source projects: the Meteor's Apollo integration & Telescope, one of the biggest Meteor open-source app running with React & GraphQL.",
-      "workspace": "OK GROW!",
-      "website": "xaviercazalot.com"
+      "name": "Monica Dinculescu",
+      "image": "assets/monica.jpg",
+      "bio": "Monica works on Polymer, web components and Chrome, and has probably at least once broken the Internet for you. She is unreasonably excited about emoji, wary of web fonts, and will become your best friend if you bring her cheese. On second thought, she may be a mouse.",
+      "workspace": "Google",
+      "website": "meowni.ca"
     }
   },
   {
-    "talk_name": "Warping Time with Async/Await",
+    "talk_name": "A Guide to Instant Loading Angular Apps",
     "day": 1,
     "start": "11:30 am",
-    "description": "The JS world is a constant surprise. Just look at the recent years and you'll see why. The language itself is maturing and the angles from which we look at it are becoming more and more diverse. We've arrived from 10-year release cycles to yearly feature upgrades. ES2017 is upon us and together with it, a new tool that gives us time-warping superpowers: Async/Await. Come learn (almost) all there is to know about it and how you can start using it today. It's going to be fun!",
-    "image": "assets/cassi.jpg",
+    "description": "Minimizing first time to render is one of the bigger challenges in Angular. This talks covers several tips and tricks you can do to get those bundle sizes small and loading times to a minimum!",
+    "image": "assets/mashhood.jpg",
     "speaker": {
-      "name": "Cassi Lup",
-      "image": "assets/cassi.jpg",
-      "bio": "Cassi Lup is a Lead Developer with 3Pillar Global and a co-organizer of tim.js (probably the 1st JS Meetup in Romania). He has a passion for the web and tries to look at it with a creative, yet critical eye. He has a knack for all things JS, from trainings and workshops all the way to solving real-life problems with code. When not online, he loves hanging out with his wife and two kids.",
-      "workspace": "3Pillar Global",
-      "website": "github.com/cassilup"
+      "name": "Mashhood Rastgar",
+      "image": "assets/mashhood.jpg",
+      "bio": "Mashhood is the principal technical consultant at Recurship. He works with different startups in US and EU to helps them crawl through the technical maze and quickly build amazing products focused around the problems they are trying to solve. He specializes in using the latest web technologies available to execute the best possible solutions.",
+      "workspace": "Recurship",
+      "website": "twitter.com/mashhoodr/"
     }
   },
   {
-    "talk_name": "Fighting the Front-end Fatigue",
+    "talk_name": "What the v...DOM?",
     "day": 1,
     "start": "12:00 am",
-    "description": "Sometimes the front-end ecosystem may seem, like riding a wild hog in a pitch black forest: it can be disorienting, full of nasty surprises, and even seasoned veterans may find it challenging to hang on. You may think, that if you don't check your twitter feed for a few days, you won't understand what everybody's talking about, but even worse, you may miss out on juicy opportunities to make your website better, faster, easier to maintain and so on. I'll talk about the basic set of technologies and techniques one needs to be able to deal with the onslaught of other technologies and ideas you're constantly being bombarded with as a front-end engineer.",
-    "image": "/assets/BenedekGagyi.jpg",
+    "description": "Everybody talks about the vDOM but who really knows how it works? How virtual is it in reality? And why does it work so well? This talk looks at Preact (and others) and brings some light into the topic.",
+    "image": "/assets/stefan.jpeg",
     "speaker": {
-      "name": "Benedek Gagyi",
-      "image": "assets/BenedekGagyi.jpg",
-      "bio": "Developer, teacher, sports-fanatic. When he`s not working on simplifying online collaboration at join.me by LogMeIn, he`s researching the patterns and algorithms connecting basketball, trail running, and drums. His devotion for impeccable user interfaces is rivaled only by his constant search for the perfect brew of Chinese green tea. Benedek is also one of the organizers of the Budapest AngularJS community.",
-      "workspace": "LogMeIn",
-      "website": "500tech.com"
+      "name": "Stefan Judis",
+      "image": "assets/stefan.jpeg",
+      "bio": "Stefan started programming 6 years ago and quickly fell in love with web performance, new technologies, and accessibility. He worked for several startups in Berlin and recently joined Contentful to tell the world how an API-first CMS can make you a bit happier. He is also a curator of the web performance online resource Perf Tooling, organizer of the Web Performance Meetup Berlin, contributes to a variety of open source projects and enjoys sharing nerdy discoveries.",
+      "workspace": "Contentful",
+      "website": "www.stefanjudis.com/"
     }
   },
   {
-    "talk_name": "Lunch Time",
+    "talk_name": "Lunch Break",
     "day": 1,
     "start": "12:30 am",
-    "description": "",
-    "image": "assets/point.png"
+    "description": ""
   },
   {
-    "talk_name": "UI development made simple",
+    "talk_name": "The exciting future of React",
     "day": 1,
     "start": "02:00 pm",
-    "description": "Web developers either love or hate client-side JavaScript. The proliferation of frameworks is empowering for avid followers of the JavaScript ecosystem, but often terrifying for backend developers who want to catch up. Is it really easier to write JS in 2017 than in 2007? I believe so, but only if we stop to appreciate how much the size and complexity of web pages grew in the past decade. Let's explore how to use the React component model to create a simple development process and a scalable architecture for building modern web apps.",
-    "image": "/assets/chereches.png",
+    "description": "Aside from the fact that the core of React was completely rewritten, version 16 also comes with some powerful new features. We`ll see interesting and practical use-cases for error boundaries, portals, and fragments. Additionally, we`re gonna explore some experimental features like react-call-return and we`re going to see what does the future hold for React.",
+    "image": "/assets/kristijan.jpg",
     "speaker": {
-      "name": "Ovidiu Chereches",
-      "image": "assets/chereches.png",
-      "bio": "Ovidiu is a React & JS consultant. Previously Engineering Manager at [Hootsuite], leading the UI development of the Analytics product. Before that, he`s helped build countless web experiences working with startups, agencies and large organizations. He spends most of his time creating user interfaces and open source software, such as [React Cosmos] and [Illustrated Algorithms]. He`s also founded the React.js Bucharest community, where he hosted a number of meetups and hackathons.",
-      "workspace": "React & JS Consultant",
-      "website": "ovidiu.ch/"
+      "name": "Kristijan Ristovski",
+      "image": "assets/kristijan.jpg",
+      "bio": "He had the chance to work and experiment with a variety of languages and frameworks. Teaching React and Javascript at React Academy. Cares about open source, made and maintains sizzy.co, custom-react-scripts, and mobx-router.",
+      "workspace": "React Academy",
+      "website": "reactacademy.io/"
     }
   },
   {
-    "talk_name": "Is JavaScript making us better professionals?",
+    "talk_name": "Teleport your application",
     "day": 1,
-    "start": "02:45 pm",
-    "description": "We can all agree that JavaScript is a trending programming language. But is this a good thing? Is JavaScript the right language to learn or to study? Can we push the language into the academic field so that students are better prepared for the jobs of the future in IT? I want to make a case here, that JavaScript forces you to go one step further in understanding what you are doing, compared with other mainstream languages that have their abstractions already built into the language. We will look at a few common patterns to establish some context and we will discuss about the dangers of abstractions and the source of the JavaScript Fatigue™.",
-    "image": "/assets/AlexMoldovan.jpg",
+    "start": "02:30 pm",
+    "description": "The talk will present Teleport, a new platform allowing developers to collaborate and to generate and maintain all their front-end codebase for React and React-Native.",
+    "image": "/assets/paul.jpg",
     "speaker": {
-      "name": "Alex Moldovan",
-      "image": "assets/AlexMoldovan.jpg",
-      "bio": "Coder, blogger and tech enthusiast in general, passionate about JavaScript and Functional Programming, Alex is always happy to talk about coding and software development in general. He is a huge militant for clean code and teaching people core programming skills and paradigms. Currently he works as a full stack developer splitting his time between JavaScript and Ruby but outside work, he`s a big promoter of open source software and communities, as he`s co-organizing Cluj JavaScripters.",
-      "workspace": "Fortech",
-      "website": "medium.com/@alexnm"
+      "name": "Paul Brie",
+      "image": "assets/paul.jpg",
+      "bio": "Paul Brie is the CEO of Teleport and Head of JavaScript @Evozon. He is focusing his activities on R&D, startups, and leads Spherik`s accelerator Deep Tech Program. Paul is also one of the proud co-founders of the Cluj JavaScripters community and JSHeroes International Conference.",
+      "workspace": "Evozon",
+      "website": "medium.com/@paulbrie"
+    }
+  },
+  {
+    "talk_name": "Reasons to give React Native a(nother) try",
+    "day": 1,
+    "start": "03:00 pm",
+    "description": "When a highly hyped new tool is released, many users end up disappointed that it doesn’t handle their use case easily or that it isn’t as polished as they expected. Others don’t bother because the documentation isn’t good enough and there aren’t enough learning resources. If the project survives, then over time developers will chip away at these problems, but it’s often hard to convince people to shake their initial impression. React Native is no different from other tools in this regard, so I want to present a few reasons why you might want to give React Native a(nother) try now, nearly three years since its initial release.",
+    "image": "/assets/brent.png",
+    "speaker": {
+      "name": "Brent Vatne",
+      "image": "assets/brent.png",
+      "bio": "Developer at Expo, core contributor to React Native. Spare time is spent traveling and playing with #lucythetri.",
+      "workspace": "Expo",
+      "website": "blog.expo.io/"
     }
   },
   {
     "talk_name": "Coffee Break",
     "day": 1,
     "start": "03:30 pm",
-    "description": "",
-    "image": "assets/point.png"
+    "description": ""
   },
   {
-    "talk_name": "As simple as an AST",
+    "talk_name": "Advanced Redux - Design Patterns and Practices",
     "day": 1,
     "start": "04:00 pm",
-    "description": "Abstract Syntax Trees, AST for short are a very less talked about subject in the world of Javascript. But surprisingly, almost all of the common tooling used by modern front end developers, from linting, minifying, babel-transforming, uglifying, webpacking depend heavily on the AST for reliable and standardised transformations. Learning how to use an AST is much simpler than I imagined. Here's about why ASTs are so ubiquitous and how you can make use of it to enhance your daily workflow.",
-    "image": "/assets/pavithra.png",
+    "description": "Redux is as a modern popular state management library in frontend today. But if you dig a little deeper, you will find out the Redux build on top of patterns and concepts that was introduced 20 years ago. During this session, we talk about design patterns from the world of micro services and messaging systems and see how to use those ideas in the context of modern single page app. You will never use Redux the same way again.",
+    "image": "/assets/nir.png",
     "speaker": {
-      "name": "Pavithra Kodmad",
-      "image": "assets/pavithra.png",
-      "bio": "Pavithra is a Bangalore based Web UI developer. She has been building web applications of various description from the past 6 years. She is a JS framework junkie who has written production applications in Backbone, Ember, Angular and now, React. She likes to participate in welcoming open source communities and is particularly interested in front-end developer tools. She listens to classic rock and loves to watch anime movies.",
-      "workspace": "Flipkart.com",
-      "website": "pksjce.github.io"
+      "name": "Nir Kaufman",
+      "image": "assets/nir.png",
+      "bio": "Nir is a Google Developer Expert in web technologies, worldwide conference speaker and workshop mentor. He also a community community activist, a meetup organiser of several groups including ReactNYC, AngularNYC, AngularIL, NgSWAT and few others. Nir wrote 2 books about Angular, and he is the proud founder of the ‘’Frontend Band” - The first open-source rock n roll band!",
+      "workspace": "500Tech",
+      "website": "ngnir.life"
     }
   },
   {
-    "talk_name": "Static and Dynamic Next.js",
+    "talk_name": "Meta Vue Framework",
     "day": 1,
     "start": "04:30 pm",
-    "description": "With Next.js, you can create React applications that automatically server-render, code-split and hot-reload, with no setup. This talk will explore the two most powerful new features of Next.js: static exports and dynamic imports. These allow for the creation of high-performance advanced applications, examples of which we'll demonstrate live, on stage.",
-    "image": "/assets/GuillermoRauch.jpg",
+    "description": "An overview of Nuxt.js, the Meta Vue Framework that let you create blazing fast Vue.js application quickly.",
+    "image": "/assets/sebastien.jpeg",
     "speaker": {
-      "name": "Guillermo Rauch",
-      "image": "assets/GuillermoRauch.jpg",
-      "bio": "Guillermo is the founder of zeit.co, whose mission is to make cloud deployment simple, global and real time. He founded two startups previously: LearnBoost and CloudUp. He`s the creator of several popular Node.JS open source libraries like socket.io, mongoose and slackin. Prior to Node.JS, he was a core developer of the MooTools frontend toolkit. He’s a JSConf.ar curator, open source enthusiast and blogger",
-      "workspace": "Zeit",
-      "website": "rauchg.com"
+      "name": "Sébastien Chopin",
+      "image": "assets/sebastien.jpeg",
+      "bio": "Sébastien is the co-creator of Nuxt.js, a JS framework to create blazing fast Vue apps quickly. He’s currently working at Orion.sh, building Open Source projects and Services.",
+      "workspace": "ORION",
+      "website": "medium.com/@atinux"
     }
   },
   {
-    "talk_name": "End of day remarks and networking",
+    "talk_name": "Vue.js and Serverless",
     "day": 1,
     "start": "05:00 pm",
-    "description": "",
-    "image": "assets/point.png"
+    "description": "Sarah Drasner is an award-winning Speaker, Senior Developer Advocate at Microsoft, and Staff Writer at CSS-Tricks. Sarah is also the co-founder of Web Animation Workshops, with Val Head. She’s the author of SVG Animations from O’Reilly and has given Frontend Masters workshops on Vue.js and Advanced SVG Animations. Sarah is formerly Manager of UX Design & Engineering at Trulia (Zillow).",
+    "image": "/assets/sarah.jpg",
+    "speaker": {
+      "name": "Sarah Drasner",
+      "image": "assets/sarah.jpg",
+      "bio": "Learn how to use Serverless functions to easily run small segments of code in the cloud with Azure. We'll learn how to integrate it with Vue and Nuxt to crop and store images on the fly, update geolocation data, and more - all without needing to maintain or scale a server.",
+      "workspace": "Microsoft",
+      "website": "sarahdrasnerdesign.com/"
+    }
   },
   {
     "talk_name": "Morning Coffee",
     "day": 2,
     "start": "08:30 am",
-    "description": "",
-    "image": "assets/point.png"
+    "description": ""
   },
   {
-    "talk_name": "Welcome",
+    "talk_name": "A red LEGO brick is always red: components on the web",
     "day": 2,
     "start": "09:00 am",
-    "description": "",
-    "image": "assets/point.png",
+    "description": "This talk will explore the changes that have occurred in the front end space in the past few years and how we’ve aligned on the concepts of components being the key building block for frontend applications.We’ll discuss how thinking of a web application as a tree of components, rather than discrete pages, leads to a more testable, maintainable and reliable codebase. We’ll look at how we can build predictable components, encapsulating perfectly the triumvirate of HTML, CSS and JS that can be combined to build reusable components.Using React as our component library of choice, we’ll look at patterns that lead you down the path of reusability almost by default and how to walk the fine line between reusability and death by configuration.Then we’ll explore the final piece of the puzzle: CSS. CSS goes against everything the componentised world stands for but its global, cascading nature can be tamed. I’ll show different approaches to combining your CSS with your components in order to fully encapsulate a component into a lovely, reusable lego brick.",
+    "image": "assets/jack.jpg",
     "speaker": {
-      "name": "Paul Brie",
-      "image": "assets/point.png",
-      "bio": "",
-      "workspace": "Evozon",
-      "website": "rpbertonodi.me"
+      "name": "Jack Franklin",
+      "image": "assets/jack.jpg",
+      "bio": "Jack is a Frontend Engineer at Thread in London working primarily with React. In his free time, he’s usually writing or recording videos for his blog, JavaScript Playground. Jack is also the author of “Beginning jQuery” (Apress, 2012) and a regular speaker on React, Elm, JavaScript, build tools and frameworks.",
+      "workspace": "Thread",
+      "website": "twitter.com/Jack_Franklin"
     }
   },
   {
-    "talk_name": "Building Universal Apps",
+    "talk_name": "The Dream of Styleguide Driven Development",
     "day": 2,
-    "start": "09:30 am",
-    "description": "The present enables us to build universal applications, that run on multiple platforms and environments. Why should I care to build such applications? Or why should I even care that such applications can be built.From theory to code examples, from sane coding to going crazy. You name it.",
-    "image": "assets/ronodi.png",
+    "start": "9:30 am",
+    "description": "You have heard of all types of driven development but react emerged a new type, styleguide driven development became a reality with components. This type of development focuses on Developer/Designer collaboration and on assertive components. With the use of React, CSS-in-JS, Flow and Snapshot testing we were able to almost remove style regressions. In this talk you get a glimpse of you can start styleguide driven development and how you can sell this dream to your project managers.",
+    "image": "assets/sara.jpeg",
     "speaker": {
-      "name": "Robert Onodi",
-      "image": "assets/ronodi.png",
-      "bio": "Robert is currently a Software Architect at Evozon, but has been writing code past a decade. He is passionate about JavaScript, application architectures and mentoring. Beside the daily programming routines, he is also a trainer at Scoala Informala de IT, in Cluj-Napoca, a speaker at serveral JS related conferences and finally a writer both on his blog and traditional hardcover.",
-      "workspace": "Evozon",
-      "website": "robertonodi.com"
+      "name": "Sara Vieira",
+      "image": "assets/sara.jpeg",
+      "bio": "Front-End Developer at @YLDio, open sorcerer, maker of useless modules, Blogger, Drummer and horror movie fan girl.",
+      "workspace": "YLD",
+      "website": "iamsaravieira.com"
     }
   },
   {
-    "talk_name": "Collaborative Learning",
+    "talk_name": "Getting the best out of web-based 2D graphics",
     "day": 2,
     "start": "10:00 am",
-    "description": "TBA",
-    "image": "assets/RoxanaRugina.jpg",
+    "description": "HTML5 promised us powerful tools for creating and manipulating graphics in the browser, but it still has a long way to go until it can give us the level of control of the dedicated graphic engines. However, the ever expanding web app market is just too juicy to give up on for graphic programmers. There are numerous examples of successful web-based graphic tools already, so why not take it further and really push the limits of what you can do in the browser with just Canvas and SVG?",
+    "image": "assets/lara.jpg",
     "speaker": {
-      "name": "Roxana Rugina",
-      "image": "assets/RoxanaRugina.jpg",
-      "bio": "Roxana is a technologist and communication expert engaged in social and disruptive innovation, passionate about future technologies, entrepreneurship and innovation in education. Her working experience with NGOs, international companies, governmental institutions, agencies and startups brought her to Simplon.co France where she learned Ruby & Ruby on Rails for 6 months. After 10 years of experience in web, marketing, education and communication, she wants to help more people to learn how to code, develop digital & entrepreneurial skills to solve real problems with long term positive impact on societies.",
-      "workspace": "Simplon Romania",
-      "website": "robertonodi.com"
+      "name": "Larissa Davidova",
+      "image": "assets/lara.jpg",
+      "bio": "Larissa is a software developer and a startup enthusiast with background in theoretical physics. She works at a Cluj startup Moqups and focuses on math and geometry-heavy algorithms. She also owns and manages HalftonePro, a specialized graphic design tool. Previously, Larissa worked in game development in Moscow and released her own game Cyberflow.",
+      "workspace": "Moqups",
+      "website": "larathedev.com"
     }
   },
   {
     "talk_name": "Coffee Break",
     "day": 2,
     "start": "10:30 am",
-    "description": "",
-    "image": "assets/point.png"
+    "description": ""
   },
   {
-    "talk_name": "Node.js Security: Breaking The Loop",
+    "talk_name": "Recursion, Iteration, and JavaScript: A Love Story",
     "day": 2,
     "start": "11:00 am",
-    "description": "Node.js and JavaScript adoption are high and application security plays a big part in shipping your products in the midst of cyber security threats.We will deep-dive into practical Node.js security measures which you can easily implement in your current projects. Covering topics such as OWASP Top 10 vulnerabilities, Secure Code Guidelines, Leveraging recommended npm libraries, Hardening ExpressJS, and Secure Dependencies Management with CI/CD integration.",
+    "description": "Recursion and iteration are two alternative paradigms for solving problems by breaking them down into smaller chunks; this talk is a deep dive into how these paradigms work, and how JS supports them both. There’s a fundamental tradeoff between the two: the stateful repetition of iteration is often more performant as it’s closer to the way our machines “think”, whereas many programmers find the self-referential abstraction of recursion easier to read & write. In JS prior to ES6, neither paradigm was especially easy to work with: iterative loops were laborious to read and write (not human-efficient), and recursion was limited by the fact that subsequent recursive calls to a function require additional frames added to the stack, potentially leading to stack overflow (not machine-efficient). Eventually, however, all three - recursion, iteration, and JS - were finally brought closer together. In this talk we’ll dive into the nature of the two paradigms, examine what an Iterable and a tail-recursive function are, and learn how Tail Call Optimization unites the two paradigms, allowing us to write code recursively and run it iteratively.",
+    "image": "assets/anjana.jpg",
+    "speaker": {
+      "name": "Anjana Vakil",
+      "image": "assets/anjana.jpg",
+      "bio": "Anjana suffers from a debilitating case of curiosity, which led her from philosophy to English teaching to computational linguistics to software development. As Engineering Learning & Development Lead at Mapbox, she can usually be found in San Francisco; that is, when she's not speaking at events around the world, trying to share the joy of coding and advocate for a more diverse & accessible tech industry. Ask her about the Recurse Center, Outreachy, and Mozilla!",
+      "workspace": "Mapbox",
+      "website": "vakila.github.io"
+    }
+  },
+  {
+    "talk_name": "V8 internals for JS developers",
+    "day": 2,
+    "start": "11:30 am",
+    "description": "This presentation demonstrates how learning just a little bit about JavaScript engine internals can help you improve the run-time performance of your JavaScript code — not just in V8 specifically, but across all JavaScript engines!",
+    "image": "assets/mathias.png",
+    "speaker": {
+      "name": "Mathias Bynens",
+      "image": "assets/mathias.png",
+      "bio": "Mathias is a web standards enthusiast working on V8 at Google. He likes HTML, CSS, JavaScript, Unicode, performance, and security.",
+      "workspace": "Google",
+      "website": "mathiasbynens.be"
+    }
+  },
+  {
+    "talk_name": "How to make your LEDs better listeners",
+    "day": 2,
+    "start": "12:00 am",
+    "description": "Wooed by the possibility to put LEDs on ALL THE THINGS and control them with an app, I bought my first (and second and third...) arduino this year and haven’t looked back. But, as a IoT newbie, I defaulted to what I knew as a frontend developer. I applied the libraries I was familiar with from my daily work to solve my IoT problems with lackluster results. Things kind of worked, but the connections were flaky and it crashed a lot. It felt like there had to be something out there that was a better fit for communicating from the web to hardware. In my pursuit for a minimalist solution that could handle poor network connections and had implementations in C++ and JavaScript, I found the MQTT protocol.MQTT is a lightweight messaging architecture for sending data between hardware and other devices where a small code footprint and performance in poor network conditions are crucial. In this talk, we’ll look what exactly what MQTT is, how I use it in my own art/wearable project, and why you should check it out for your next hardware project.",
+    "image": "assets/stephanie.jpeg",
+    "speaker": {
+      "name": "Stephanie Nemeth",
+      "image": "assets/stephanie.jpeg",
+      "bio": "Stephanie is a developer living in Amsterdam. She works on frontend stuff at Werkspot and co-organizes the Stupid Hackathon Amsterdam. She enjoys experimenting with hardware and LEDs to make beautiful, useless things.",
+      "workspace": "Werkspot",
+      "website": "stephanie.lol"
+    }
+  },
+  {
+    "talk_name": "Lunch Break",
+    "day": 2,
+    "start": "12:30 am",
+    "description": ""
+  },
+  {
+    "talk_name": "Making The Terminal Great Again",
+    "day": 2,
+    "start": "02:00 pm",
+    "description": "Whether it’s npm, webpack or yeoman generators, developers spend a great deal of their time on the CLI to run, debug and interact with programs. You already know React, and use it to render to the browser or to mobile apps. Now you can harness this knowledge of React and Node.js to build your next shiny terminal UI application.This is your chance to learn the great world of Node.js CLI applications and dive into hands-on coding of a fancy React console app. You will also discover some powerful and fun CLI tools and libraries that make up the ecosystem and can help you with your day to day developer activity.",
     "image": "assets/liran.png",
     "speaker": {
       "name": "Liran Tal",
       "image": "assets/liran.png",
-      "bio": "Liran is leading the core team for the MEAN.js JavaScript framework. He recently published Essential Node.js Security and authored other books in Agile, and Web development. Passionate about Open Source since an early age, he is continuously contributing to many projects on GitHub in Node.js, JavaScript, Docker, and Security.Being an avid supporter and contributor to the open source movement, in 2007 Liran has redefined network RADIUS management by establishing daloRADIUS, a world-recognized and industry-leading open source project.",
-      "workspace": "Marketing Cloud, Nielsen",
-      "website": "robertonodi.com"
+      "bio": "Liran is leading the core team for the MEAN.js JavaScript framework and with recent activity in OWASP and application security projects he published the book Essential Node.js Security. Passionate about Open Source since an early age, he is continuously contributing to many projects on GitHub around Node.js, JavaScript, Docker, and Security, and enjoys sharing his experience regularly at local meet-ups and conferences.",
+      "workspace": "Nielsen Marketing Cloud",
+      "website": "medium.com/@liran.tal"
     }
   },
   {
-    "talk_name": "From Localhost to Production",
-    "day": 2,
-    "start": "11:50 am",
-    "description": "This talk is a practical introduction to production deployment of node.js applications. In this talk, I will share my journey of gaining a better understanding of managing production websites and becoming more confident in delivering solutions that scale. I will go over Node Clusters, MongoDB Replicas, Reverse Proxies, Load Balancers, CDNs and more with demos and real world scenarios of usage. With this knowledge, developers will be able to have a better understanding of production deployments and also learn that some problems can be solved without writing a single line of code.",
-    "image": "assets/gautam.jpg",
-    "speaker": {
-      "name": "Gautam Aroral",
-      "image": "assets/gautam.jpg",
-      "bio": "Gautam is a Developer Evangelist at Conde Nast, an organizer of New York JavaScript where he runs NodeSchool NYC, and a self-published author at FullStack JavaScript.",
-      "workspace": "Conde Nast",
-      "website": "robertonodi.com"
-    }
-  },
-  {
-    "talk_name": "Lunch Time",
-    "day": 2,
-    "start": "12:30 am",
-    "description": "",
-    "image": "assets/point.png"
-  },
-  {
-    "talk_name": "React Native - From pure Web app to a Web & Mobile hybrid",
-    "day": 2,
-    "start": "02:00 pm",
-    "description": "I'll introduce how we took a production React Web site and turned it into a hybrid repo for both Web and Mobile. A single repository to rule them all - the challenges, deployment setup, shared code and lots of lessons learned. Get ready for some real-world lessons!",
-    "image": "assets/vladimir.png",
-    "speaker": {
-      "name": "Vladimir Porton",
-      "image": "assets/vladimir.png",
-      "bio": "Israel-based Front-End and React Native developer at 500Tech. Worked on tens of projects using Angular, React and React Native. ",
-      "workspace": "500Tech",
-      "website": "robertonodi.com"
-    }
-  },
-  {
-    "talk_name": "Introducing Chunky - The Full Stack React Framework",
+    "talk_name": "Full-Config-Jacket",
     "day": 2,
     "start": "02:30 pm",
-    "description": "Chunky is an opinionated framework that helps you write better React Apps by organizing functionality in modular, cross-functional chunks.",
-    "image": "assets/calinescu.jpg",
+    "description": "Being a developer shouldn`t be hard. You should create a file and start developing. But if you`d want to develop like a hipster, it would mean tooling, a lot of tooling. The talk will focus on how maintainers should reduce the entry requirements to build modern applications with as little configuration as possible.",
+    "image": "assets/even.jpg",
     "speaker": {
-      "name": "Dan Călinescu",
-      "image": "assets/calinescu.jpg",
-      "bio": "Developer, writer, educator and father, on a mission to contribute to a future where technology serves humanity - not the other way around. Expert diaper-changer with a ridiculous passion for Open Source.",
-      "workspace": "Evozon",
-      "website": "robertonodi.com"
+      "name": "Even Stensberg",
+      "image": "assets/even.jpg",
+      "bio": "Even is an informatics student above the Artic Circle and a maintainer of webpack-cli. He also likes rockets 🚀.",
+      "workspace": "Arctic University of Norway",
+      "website": "twitter.com/ev1stensberg"
     }
   },
   {
-    "talk_name": "Frontend development in the (current) future",
+    "talk_name": "CodeSandbox",
     "day": 2,
     "start": "03:00 pm",
-    "description": "Call it a fronted state of the union, call it hot or not in YYYY, call it buzz-word bingo. We will talk about how Progressive Web Apps helps the web compete with native apps. How new browser features will transform e-commerce. Whats on the horizon for javascript and for frameworks? and where does typescript fit in? How will Houdini eventually change layout on the web? Whats up with the physical web or what about Internet of Things - and how are those related. Offline, PRPL, Observables, Serviceworker, push-notification, redux, web-APKs, and maybe even more… all packaged up, tree-shaken, server-rendered and served over https!",
-    "image": "assets/filip.jpg",
+    "description": "CodeSandbox is an online editor built for web applications. During the talk I`ll explain how it works, and how we got where we are now.",
+    "image": "assets/ives.jpg",
     "speaker": {
-      "name": "Filip Bech-Larsen",
-      "image": "assets/filip.jpg",
-      "bio": "Filip is a frontend developer from Denmark, focusing on delivering great user-experiences to the end-user – often using Angular. He is the Frontend Manager at IMPACT, delivering large-scale commerce-products to well-known business and consumer brands. Filip is passionate about the web, and cares not only about clean and efficient code, but also about accessibility and performance, in order for the web to be available and accessible for everybody - without sacrificing great design and UX. In his local city of Aarhus, Denmark, Filip initiated an angular user group that has grown to become the biggest in the country. Filip is an active community member, and an experienced public speaker, loving to share knowledge and to mentor fellow developers and entrepreneurs. Filip lives in Aarhus, with his wife and two boys, and fluently speaks English and Danish.",
-      "workspace": "IMPACT",
-      "website": "robertonodi.com"
+      "name": "Ives van Hoorne",
+      "image": "assets/ives.jpg",
+      "bio": "Ives is software developer at Catawiki and student at the University of Twente when he finds the time. He created CodeSandbox, an online editor that focuses on lowering the learning curve of web application development.When he is not behind a screen he likes to play volleyball, make music or travel to big cities.",
+      "workspace": "Catawiki",
+      "website": "ives.cool"
     }
   },
   {
     "talk_name": "Coffee Break",
     "day": 2,
     "start": "03:30 pm",
-    "description": "",
-    "image": "assets/point.png"
+    "description": ""
   },
   {
-    "talk_name": "Automatic Progressive Web Apps using the Angular Mobile Toolkit",
+    "talk_name": "Serving for the win - Deployments and hosting for the rest of us",
     "day": 2,
     "start": "04:00 pm",
-    "description": "Progressive Web Apps are the next big thing for the web. They combine the advantages of two platforms: searchability and shareability of the web with capabilities and performance of native mobile. As a result, web developers can use their favorite tools to build installable, re-engageable, connectivity independent apps, that can bring native-like performance and user experience.The Angular Mobile Toolkit makes it easy to get started building PWA. It’s developed to automate main routines and provide us with some nice tools to control the progressive app behavior. During this practical session, we'll have a look at Mobile Toolkit’s main components, and how they take our web app to the next level. With just some simple updates we’ll get installable, offline-capable, mobile-network-friendly Angular app re-engaging users by push-notifications.",
-    "image": "assets/maximsalnikov.png",
+    "description": "You’ve chosen your frameworks and libraries. You’ve learned how to write code which satisfies the buzzword and performance gods. Now you need to serve it to a global audience, and make things easy to preview, to test, to sign-off, and to evolve.This talk looks at some case studies of projects making common mistakes, and some which benefit from a better approach.We’ll explore tools and techniques which ease the path to production. Things anyone can do to boost confidence in every release. And ways to optimise our hosting for performance, hassle free localisation and genuine A/B testing.",
+    "image": "assets/phil.jpg",
     "speaker": {
-      "name": "Maxim Salnikov",
-      "image": "assets/maximsalnikov.png",
-      "bio": "Maxim Salnikov is Oslo-based Web UI Engineer, a Google Developer Expert in Web Technologies and Angular. He develops complex web applications since the end of the last century and has extensive experience with all aspects of web front-end: UX/UI prototyping, HTML/CSS/JS, main frameworks, progressive web apps. Maxim is a founder and active contributor to two conferences: Mobile Era and ngVikings - Nordics’ main conferences for mobile and Angular developers respectively. Also, he leads Norway’s largest meetups dedicated to web front-end and mobile: Framsia, Angular Oslo, Mobile Meetup Oslo. Maxim is passionate about sharing his web front-end experience and knowledge with the community. He travels extensively for visiting developers events and speaking/training at conferences and meetups around the world.",
-      "workspace": "ForgeRock",
-      "website": "robertonodi.com"
+      "name": "Phil Hawksworth",
+      "image": "assets/phil.jpg",
+      "bio": "Phil works in Developer Relations at Netlify, the fastest growing automation and hosting platform for modern websites.With a passion for browser technologies, and the empowering properties of the Web, he loves seeking out ingenuity and simplicity, especially in places where over-engineering is common.Phil’s career in web development spans almost 20 years and includes time as a Software Engineer at Verisign, an Open Source Evangelist at British Telecom, and Technology Director at R/GA where he worked with clients around the world such as Nike, Google, Hyundai and Samsung to bring engaging and effective experiences to the widest audience possible.",
+      "workspace": "Netlify",
+      "website": "www.hawksworx.com"
     }
   },
   {
-    "talk_name": "A Unified Styling Language",
+    "talk_name": "Virtual reality for every developer!",
     "day": 2,
     "start": "04:30 pm",
-    "description": "In the past few years, we've witnessed a massive increase in the amount of CSS experimentation, with ideas like CSS Modules and—most controversially—the rise of CSS-in-JS. But does mixing our styles and logic run counter to the original ideas of CSS? Does it break progressive enhancement? Most importantly, when dealing with such a boundary-defying trend, how can we ensure that the CSS and JS communities are united rather than divided?",
-    "image": "assets/mark.jpg",
+    "description": "Since 2016 the VR technology has been a rising trend again, and many types of headsets are out in the market. Proprietary tools for creating VR apps have their requirements for ecosystems, controllers, installations etc. And the simplest of applications needs a lot of complex/boilerplate code to be written for setup. A-Frame is an open source web framework which enables creating VR experiences with simple HTML and little JS without much efforts. You'll learn how to use it to create fantastic VR applications which can even be multi-user/real-time and also get inspired from some usecases.",
+    "image": "assets/shagufta.jpeg",
     "speaker": {
-      "name": "Mark Dalgleish",
-      "image": "assets/mark.jpg",
-      "bio": "Mark Dalgleish is the co-creator of CSS Modules, lead organiser of MelbJS, and DesignOps Lead at SEEK, Australia's leading job site. Having got his start with HTML and UI design at a young age, Mark has since developed a love of open source and software engineering but always as a means to creating elegant, usable experiences.",
-      "workspace": "DesignOps Lead, SEEK",
-      "website": "robertonodi.com"
+      "name": "Shagufta Gurmukhdas",
+      "image": "assets/shagufta.jpeg",
+      "bio": "I am a Tech-Speaker for Mozilla and have been volunteering for Mozilla for about 4 years, currently as a Community Coach for South-East Asia. I have been exploring \"virtual reality\" as a technology since the past one year and it has indeed been the first time technology has made me feel so excited ever since I came to know about the internet. Other than that, I am the initiator and organizer of Django Girls Pune and am working actively as a part of the Diversity and Inclusion group at Mozilla. I`m currently working in HSBC Technology India, as a software developer. I am also a decent artist, and love to play the piano in my free time!",
+      "workspace": "HSBC Technology India",
+      "website": "twitter.com/@shaguftamethwan"
     }
   },
   {
-    "talk_name": "End of day remarks and networking",
+    "talk_name": "Package Quest: the journey of a package from the npm registry to your computer",
     "day": 2,
     "start": "05:00 pm",
-    "description": "",
-    "image": "assets/point.png"
+    "description": "Ever wonder what happens when you `npm install` something? Follow an odyssey across the wires as our hero client embarks on an adventure to bring you the software that you need, right when you ask for it. After this talk you'll have a better understanding of the course a package takes - helping you understand architecture that works at scale as well as being able to troubleshoot package installation problems.",
+    "image": "assets/jeffrey.jpg",
+    "speaker": {
+      "name": "Jeffrey Lembeck",
+      "image": "assets/jeffrey.jpg",
+      "bio": "Jeff Lembeck is a services engineer with npm inc. He writes a lot of code and is a former lecturer for University of Washington`s JavaScript certificate program as well a guest lecturer for Ada Developer`s Academy. Jeff is co-organizer of SeattleJS and an active contributor to the open source community. When away from computers, Jeff is a lover of oyster happy hours and longs for a hot tub boat to call home.",
+      "workspace": "npm",
+      "website": "twitter.com/jefflembeck/"
+    }
   }
 ]
