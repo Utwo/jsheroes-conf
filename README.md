@@ -1,6 +1,10 @@
 # Jsheroes
 
+[![Build Status](https://travis-ci.org/Utwo/ctpcj-scraper.svg?branch=master)](https://travis-ci.org/Utwo/ctpcj-scraper)
+
 A PWA wep app made with Angular 6 for JsHeroes conference 
+
+Live version: http://jsheroes.now.sh/
 
 ## Development server
 
