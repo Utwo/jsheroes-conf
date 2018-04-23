@@ -11,7 +11,10 @@
   },
   "now": {
     "name": "jsheroes",
-    "alias": "jsheroes.now.sh"
+    "alias": [
+      "jsheroes.now.sh",
+      "www.jsheroes.now.sh"
+    ]
   },
   "private": true,
   "dependencies": {
