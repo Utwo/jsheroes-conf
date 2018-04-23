@@ -1,6 +1,6 @@
 # Jsheroes
 
-[![Build Status](https://travis-ci.org/Utwo/ctpcj-scraper.svg?branch=master)](https://travis-ci.org/Utwo/ctpcj-scraper)
+[![Build Status](https://travis-ci.org/Utwo/jsheroes-conf.svg?branch=master)](https://travis-ci.org/Utwo/jsheroes-conf)
 
 A PWA wep app made with Angular 6 for JsHeroes conference 
 
