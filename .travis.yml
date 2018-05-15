@@ -9,7 +9,6 @@ deploy:
   provider: script
   script:
     - npm run deploy
-  after_script:
     - npm run alias
   skip_cleanup: true
   on:
