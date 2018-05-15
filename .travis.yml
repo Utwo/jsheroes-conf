@@ -6,6 +6,7 @@ script:
   - npm run build
 cache: npm
 deploy:
+  provider: script
   script:
     - npm run deploy
   after_script:
