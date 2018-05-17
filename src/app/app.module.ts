@@ -4,7 +4,6 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {SharedModule} from './shared/shared.module';
-import {CoreModule} from './core/core.module';
 import {SlugPipe} from './shared/slug.pipe';
 import {HttpClientModule} from '@angular/common/http';
 import {environment} from '../environments/environment';
@@ -21,7 +20,6 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     HttpClientModule,
     NoopAnimationsModule,
     SharedModule,
-    CoreModule.forRoot(),
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [

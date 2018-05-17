@@ -3,7 +3,9 @@ import {map} from 'rxjs/operators';
 import {HttpClient} from '@angular/common/http';
 import {of} from 'rxjs';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root',
+})
 export class CallApiService {
 
   private json_cache;

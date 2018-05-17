@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --aot",
     "build": "ng build --prod",
     "deploy": "now ./dist/jsheroes --no-clipboard --public --token $NOW_TOKEN",
     "alias": "now alias --token $NOW_TOKEN",

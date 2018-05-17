@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {CallApiService} from '../../core/call-api.service';
+import {CallApiService} from '../../services/call-api.service';
 import {SlugPipe} from '../../shared/slug.pipe';
 import {ActivatedRoute} from '@angular/router';
 
