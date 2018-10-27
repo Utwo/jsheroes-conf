@@ -77,11 +77,10 @@ $js-app-theme: mat-light-theme($js-app-primary, $js-app-accent, $js-app-warn);
 
 // Base style
 body {
-  max-width: 600px;
+  max-width: 590px;
   margin: 0 auto;
   padding: 0;
   background: #eee;
-  line-height: 1.2;
 }
 
 a {
@@ -123,6 +122,22 @@ img.avatar {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.mat-card-header .mat-card-title {
+  font-size: 14px;
+}
+
+.custom-card {
+  border-radius: 0 !important;
+}
+
+.custom-card .mat-card-header {
+  align-items: center;
+}
+
+.mat-card-content p {
+  line-height: 1.6;
 }
 
 //Loading spinner

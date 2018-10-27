@@ -7,7 +7,7 @@
     <ul class="mat-list--no-margin">
       <li *ngFor="let schedule of schedule_list">
         <a matLine routerLink="/talk/{{schedule.talk_name | slug}}" *ngIf="schedule.speaker">
-          <mat-card>
+          <mat-card class="custom-card">
             <mat-card-header>
               <img mat-card-avatar mat-card-sm-image src="{{schedule.image}}" alt="{{schedule.talk_name}}">
               <mat-card-title>{{schedule.talk_name}}</mat-card-title>
@@ -15,7 +15,7 @@
             </mat-card-header>
           </mat-card>
         </a>
-        <mat-card *ngIf="!schedule.speaker" matLine>
+        <mat-card *ngIf="!schedule.speaker" class="custom-card">
           <mat-card-header>
             <mat-card-title><h4>{{schedule.talk_name}}</h4></mat-card-title>
           </mat-card-header>

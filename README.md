@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Utwo/jsheroes-conf.svg?branch=master)](https://travis-ci.org/Utwo/jsheroes-conf)
 
-A PWA wep app made with Angular 6 for JsHeroes conference 
+A PWA wep app made with Angular 7 for JsHeroes conference 
 
 Live version: http://jsheroes.now.sh/
 
