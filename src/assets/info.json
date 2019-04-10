@@ -29,7 +29,7 @@
     "talk_name": "Machine learning for front-end developers",
     "day": 1,
     "start": "10:00 am",
-    "description": "Machine learning can have some pretty complicated concepts to grasp if you’re not a data scientist. However, recent developments in tooling make it more and more accessible for developers and people with little or no experience. One of these advancements is the ability to now train and run machine learning algorithms and models in the browser, opening this world to front-end developers to learn and experiment. In this presentation, we will talk about the different applications, possibilities, tools and resources, as well as show a few examples and demos, so you can get started building your own experiments using machine learning in JavaScript.",
+    "description": "Machine learning can have some pretty complicated concepts to grasp if you’re not a data scientist. However, recent developments in tooling make it more and more accessible for developers and people with little or no experience.\n\nOne of these advancements is the ability to now train and run machine learning algorithms and models in the browser, opening this world to front-end developers to learn and experiment.\n\nIn this presentation, we will talk about the different applications, possibilities, tools and resources, as well as show a few examples and demos, so you can get started building your own experiments using machine learning in JavaScript.",
     "image": "assets/charlie-gerard.jpg",
     "speaker": {
       "name": "Charlie Gerard",
@@ -49,7 +49,7 @@
     "talk_name": "Serverless can do that?!",
     "day": 1,
     "start": "11:00 am",
-    "description": "As a frontend developer you might think - why would I even care about servers? Or lack thereof! In this session we'll explore how empowering serverless is for the Javascript developer and how much we can already achieve by not reinventing the wheel. We'll also sprinkling a bit of serverless magic and learn how we can use it once we add it to our toolbox.",
+    "description": "As a frontend developer you might think - why would I even care about servers? Or lack thereof!\n\nIn this session we'll explore how empowering serverless is for the Javascript developer and how much we can already achieve by not reinventing the wheel. We'll also sprinkling a bit of serverless magic and learn how we can use it once we add it to our toolbox.",
     "image": "assets/simona-cotin.jpg",
     "speaker": {
       "name": "Simona Cotin",
@@ -77,7 +77,7 @@
     "talk_name": "WebAssembly's Post-MVP Future",
     "day": 1,
     "start": "12:00 am",
-    "description": "If the web were a video game franchise, then WebAssembly would be its latest hero... During the first part of our journey, our hero completed the first quest—making it possible to play PC games and build applications like AutoCAD on the web. But this journey is far from over! Many a quest awaits; whole worlds are left to explore! The browser, and our hero’s current skill set, is just the beginning. In this talk, we’ll explore both charted and uncharted areas—from the JavaScript-rich lands of the browser, to the darkest reaches of the blockchain, to the airy heights of the cloud with CDNs, and more! And we’ll map out all of the features we need to unlock to take us to these new heights:",
+    "description": "\n\nIf the web were a video game franchise, then WebAssembly would be its latest hero...\n\nDuring the first part of our journey, our hero completed the first quest—making it possible to play PC games and build applications like AutoCAD on the web. But this journey is far from over! Many a quest awaits; whole worlds are left to explore! The browser, and our hero’s current skill set, is just the beginning.\n\nIn this talk, we’ll explore both charted and uncharted areas—from the JavaScript-rich lands of the browser, to the darkest reaches of the blockchain, to the airy heights of the cloud with CDNs, and more! And we’ll map out all of the features we need to unlock to take us to these new heights:\n\n    Threading\n    Garbage collection\n    ES module integration and more!",
     "image": "/assets/lin-clark.jpg",
     "speaker": {
       "name": "Lin Clark",
@@ -97,7 +97,7 @@
     "talk_name": "You Belong Here: How to Make Open Source More Open",
     "day": 1,
     "start": "02:00 pm",
-    "description": "Done well, open source is one of the highest-value targets for businesses these days. Companies like Facebook and Airbnb leverage OSS as a source of brand equity and recruiting, among other advantages. However, OSS is still uncomfortable for many companies — and even if they _do_ open source their tools, these projects often fail to launch — because they're missing the most important (and best) part of OSS: the community.",
+    "description": "Done well, open source is one of the highest-value targets for businesses these days. Companies like Facebook and Airbnb leverage OSS as a source of brand equity and recruiting, among other advantages. However, OSS is still uncomfortable for many companies — and even if they _do_ open source their tools, these projects often fail to launch — because they're missing the most important (and best) part of OSS: the community.\n\nProjects that survive in today's landscape have thriving communities that care deeply about the quality and advancement of open source _and_ the people using it. But open source can also be intimidating to newcomers, and occasionally unwelcoming. In this talk, learn how popular open source framework Gatsby has doubled down on community, including:\n\n    Offering open pair programming hours\n    Trusting _all_ contributors with merge access\n    Sending free swag to contributors\n    And much more!\n\nLearn how you can borrow our strategies to create a healthy, welcoming community for your open source projects, starting today!",
     "image": "/assets/jason-lengstorf.jpg",
     "speaker": {
       "name": "Jason Lengstorf",
@@ -178,7 +178,7 @@
     "speaker": {
       "name": "Jeffrey Lembeck",
       "image": "assets/jeffrey-lembeck.jpg",
-      "bio": "Jeff Lembeck is a Engineering Manager with npm, inc. He manages humans, thinks about code, talks a lot, and is the former lecturer for organizer of SeattleJS. When far away from a computer, Jeff seeks out oyster happy hours and longs for a hot tub boat to call home.\n",
+      "bio": "Jeff Lembeck is a Engineering Manager with npm, inc. He manages humans, thinks about code, talks a lot, and is the former lecturer for organizer of SeattleJS. When far away from a computer, Jeff seeks out oyster happy hours and longs for a hot tub boat to call home.",
       "workspace": "npm",
       "website": "twitter.com/jefflembeck/"
     }
