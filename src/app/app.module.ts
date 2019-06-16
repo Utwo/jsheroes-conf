@@ -9,10 +9,22 @@ import {HttpClientModule} from '@angular/common/http';
 import {environment} from '../environments/environment';
 import {AppRoutingModule} from './app-routing.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { HomeComponent } from './home/home.component';
+import { SpeakerComponent } from './speakers/speaker/speaker.component';
+import { ScheduleComponent } from './schedule/schedule.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { TalkComponent } from './talk/talk.component';
+import { SpeakersComponent } from './speakers/speakers.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    ScheduleComponent,
+    NotFoundComponent,
+    SpeakerComponent,
+    SpeakersComponent,
+    TalkComponent
   ],
   imports: [
     AppRoutingModule,
