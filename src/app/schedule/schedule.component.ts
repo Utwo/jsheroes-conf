@@ -14,15 +14,15 @@ export class ScheduleComponent implements OnInit {
 
   ngOnInit() {
     this.callApiService.getJSON().subscribe((res) => {
-      const filtered_items = [];
+      const filteredItems = [];
       res.map(item => {
-        if (filtered_items[item.day]) {
-          filtered_items[item.day].push(item);
+        if (filteredItems[item.day]) {
+          filteredItems[item.day].push(item);
         } else {
-          filtered_items[item.day] = [item];
+          filteredItems[item.day] = [item];
         }
       });
-      this.schedules = filtered_items;
+      this.schedules = filteredItems;
     });
   }
 

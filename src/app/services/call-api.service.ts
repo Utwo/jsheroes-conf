@@ -8,19 +8,19 @@ import {of} from 'rxjs';
 })
 export class CallApiService {
 
-  private json_cache;
+  private jsonCache;
 
   constructor(private http: HttpClient) {
   }
 
   getJSON() {
-    if (this.json_cache) {
-      return of(this.json_cache);
+    if (this.jsonCache) {
+      return of(this.jsonCache);
     }
     return this.http.get('assets/info.json').pipe(
       map(res => {
-        this.json_cache = res;
-        return this.json_cache;
+        this.jsonCache = res;
+        return this.jsonCache;
       }));
   }
 
