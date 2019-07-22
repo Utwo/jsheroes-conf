@@ -9,6 +9,9 @@
     "lint": "ng lint",
     "now-build": "npm run build"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.0.1",
